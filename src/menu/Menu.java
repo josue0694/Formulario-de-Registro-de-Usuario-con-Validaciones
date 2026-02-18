@@ -37,17 +37,14 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setText("jLabel1");
 
         jMenuBar1.setBackground(new java.awt.Color(51, 102, 255));
-        jMenuBar1.setForeground(new java.awt.Color(0, 0, 0));
 
         jMenu1.setBackground(new java.awt.Color(51, 255, 255));
         jMenu1.setForeground(new java.awt.Color(51, 255, 255));
         jMenu1.setText("Formulario");
         jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
 
-        mitRegistro.setBackground(new java.awt.Color(255, 255, 255));
         mitRegistro.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        mitRegistro.setForeground(new java.awt.Color(0, 0, 0));
-        mitRegistro.setText("Registrar");
+        mitRegistro.setText("Registro");
         mitRegistro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mitRegistroActionPerformed(evt);
@@ -74,7 +71,9 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void mitRegistroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mitRegistroActionPerformed
-             
+             Registro r =  new Registro();
+             r.setVisible(true);
+             r.setLocationRelativeTo(null);
     }//GEN-LAST:event_mitRegistroActionPerformed
 
     /**
